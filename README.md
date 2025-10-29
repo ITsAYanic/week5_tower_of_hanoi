@@ -16,7 +16,7 @@ The piece colour should be a gradiend from bright to dark.
 The target of the game is simple, stack the tower the same way as it is at the start but at the third pillar.
 ## How I think the solution works
 You always have a main tower (the tower where the pieces you need to stack on the third pillar are) and two free pillars. 
-![alt text](image.png)
+![Image of a online version of Towe of Hanoi](./images/image.png)
 Here is the main tower with 6 plates.
 You want the lowest of those plates to be on the right pillar, meaning that the plate above this plate needs to be in the middle.
 Now, in order to get this plate into the middle the plate obove it needs to be on the right. And so on.
