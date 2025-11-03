@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bwc23bcg1gtgf"]
+
+[ext_resource type="Script" uid="uid://bpbi3cnb3mv85" path="res://scripts/plate_script.gd" id="1_lheh4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lheh4"]
+size = Vector2(630.417, 117.5)
+
+[node name="plate" type="Sprite2D"]
+scale = Vector2(0.3, 0.3)
+script = ExtResource("1_lheh4")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource("RectangleShape2D_lheh4")

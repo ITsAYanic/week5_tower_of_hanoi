@@ -1,0 +1,5 @@
+res://scenes/plate.tscn
+res://base_script.gd
+res://scripts/plate_script.gd
+res://scenes/game.tscn
+res://scenes/base.tscn
